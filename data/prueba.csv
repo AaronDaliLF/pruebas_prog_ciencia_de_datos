@@ -1,0 +1,11 @@
+id,producto,categoria,precio,cantidad,fecha
+1,Camisa,Ropa,35000,2,2025-08-01
+2,Pantalón,Ropa,65000,1,2025-08-02
+3,Gorra,Accesorios,15000,3,2025-08-03
+4,Camisa,Ropa,34000,1,2025-08-04
+5,Zapatos,Calzado,95000,1,2025-08-05
+6,Camisa,Ropa,36000,2,2025-08-06
+7,Mochila,Accesorios,80000,1,2025-08-07
+8,Pantalón,Ropa,62000,2,2025-08-08
+9,Gorra,Accesorios,16000,1,2025-08-09
+10,Zapatos,Calzado,97000,1,2025-08-10

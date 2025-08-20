@@ -1,10 +1,7 @@
 # --- Importar librerías ---
-import pandas as pd
 
-# 1. Cargar datos
-def cargar_datos(ruta_csv):
-    df = pd.read_csv(ruta_csv)
-    return df
+import auxiliar as aux
+
 
 # 2. Limpiar nombres de columnas
 def limpiar_columnas(df):
@@ -32,7 +29,8 @@ ruta_entrada = r"/workspaces/codespaces-blank/data/ventas.csv"
 ruta_salida  = r"/workspaces/codespaces-blank/data/ventas_procesadas_python.csv"
 
 # Flujo de procesamiento
-df = cargar_datos(ruta_entrada)
+
+df = aux.cargar_datos(ruta_entrada)
 df = limpiar_columnas(df)
 df = eliminar_na(df)
 df = crear_total(df, "precio", "cantidad")
