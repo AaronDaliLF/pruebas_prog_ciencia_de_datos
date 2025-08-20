@@ -25,8 +25,8 @@ def guardar_datos(df, ruta_salida):
 # --- Uso de las funciones en conjunto ---
 
 # Cambia estas rutas a la ubicación real de tus archivos
-ruta_entrada = r"/workspaces/codespaces-blank/data/ventas.csv"
-ruta_salida  = r"/workspaces/codespaces-blank/data/ventas_procesadas_python.csv"
+ruta_entrada = r"/workspaces/pruebas_prog_ciencia_de_datos/data/ventas.csv"
+ruta_salida  = r"/workspaces/pruebas_prog_ciencia_de_datos/data/ventas_procesadas_python.csv"
 
 # Flujo de procesamiento
 

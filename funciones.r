@@ -41,5 +41,5 @@ print(contar_unicos(c("camisa", "pantalón", "camisa", "gorra")))  # → 3
 
 # 5. Filtrar CSV por columna (requiere archivo CSV)
 # Supongamos que el archivo tiene una columna "producto"
-resultado <- filtrar_csv("/workspaces/codespaces-blank/data/prueba.csv","producto","Camisa")
+resultado <- filtrar_csv("/workspaces/pruebas_prog_ciencia_de_datos/data/prueba.csv","producto","Camisa")
 print(resultado)

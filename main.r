@@ -34,8 +34,8 @@ guardar_datos <- function(df, ruta_salida) {
 # --- Uso de las funciones en conjunto ---
 
 # Cambia esta ruta a la ubicación real de tu archivo
-ruta_entrada <- "/workspaces/codespaces-blank/data/ventas.csv"
-ruta_salida <- "/workspaces/codespaces-blank/data/ventas_procesadas_r.csv"
+ruta_entrada <- "/workspaces/pruebas_prog_ciencia_de_datos/data/ventas.csv"
+ruta_salida <- "/workspaces/pruebas_prog_ciencia_de_datos/data/ventas_procesadas_r.csv"
 
 # Flujo de procesamiento
 df <- cargar_datos(ruta_entrada)
