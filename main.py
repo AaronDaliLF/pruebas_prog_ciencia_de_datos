@@ -1,5 +1,7 @@
 # --- Importar librerías ---
+
 import auxiliar as aux
+
 
 # 2. Limpiar nombres de columnas
 def limpiar_columnas(df):
@@ -27,6 +29,7 @@ ruta_entrada = r"/workspaces/codespaces-blank/data/ventas.csv"
 ruta_salida  = r"/workspaces/codespaces-blank/data/ventas_procesadas_python.csv"
 
 # Flujo de procesamiento
+
 df = aux.cargar_datos(ruta_entrada)
 df = limpiar_columnas(df)
 df = eliminar_na(df)
