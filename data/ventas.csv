@@ -1,0 +1,10 @@
+id,producto,precio,cantidad,fecha
+1,Lapicero,1200,10,2025-01-05
+2,Cuaderno,3500,5,2025-01-07
+3,Borrador,,12,2025-01-08
+4,Regla,1500,8,2025-01-10
+5,Marcador,2500,7,2025-01-11
+6,Lapicero,1200,,2025-01-15
+7,Cuaderno,3500,3,2025-01-18
+8,Borrador,800,15,2025-01-20
+9,Cartuchera,,30,2025-01-20
